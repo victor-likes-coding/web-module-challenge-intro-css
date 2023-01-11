@@ -127,3 +127,97 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* My CSS */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.orange {
+  background-color: #ff754e;
+}
+
+.teal {
+  background-color: #5ed2ec;
+}
+
+.yellow {
+  background-color: #ffcc69;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.nav__links-container--flex,
+.hook__container {
+  margin: 0 6rem;
+}
+
+.nav__links-container--flex {
+  display: flex;
+  padding: 3.4rem 9.7rem;
+  justify-content: space-evenly;
+}
+
+.nav__link {
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  width: 125px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.19px;
+}
+
+.hook__container {
+  margin: 3.7rem 16rem;
+  display: flex;
+}
+
+.hook__img-container {
+  height: 225px;
+  margin: 0 6rem;
+}
+
+img {
+  border-radius: 100%;
+  display: inline-block;
+  height: inherit;
+}
+
+.hook__header--title {
+  font-size: 5rem;
+  font-weight: bold;
+  word-spacing: 0.5rem;
+  letter-spacing: 2px;
+  margin: 2.2rem 0;
+}
+
+.hook__header--normal-text {
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: center;
+  margin-bottom: 2.2rem;
+  margin-right: 5rem;
+}
+
+.hook__header--pitch-text {
+  font-size: 1.6rem;
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  margin-right: 21rem;
+}
