@@ -133,20 +133,25 @@ table {
   box-sizing: border-box;
 }
 
+p {
+  font-size: 1.6rem;
+}
+
 html {
   font-size: 62.5%;
+  font-family: "Roboto Mono", monospace;
 }
 
 .orange {
-  background-color: #ff754e;
+  background-color: #ff764e;
 }
 
 .teal {
-  background-color: #5ed2ec;
+  background-color: #5ed3eb;
 }
 
 .yellow {
-  background-color: #ffcc69;
+  background-color: #ffcd69;
 }
 
 .container {
@@ -166,7 +171,7 @@ html {
 }
 
 .nav__link {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 1rem 2rem;
   width: 125px;
   border-radius: 10px;
@@ -175,8 +180,6 @@ html {
   justify-content: center;
   text-align: center;
   color: #fff;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  letter-spacing: 0.19px;
 }
 
 .hook__container {
@@ -201,10 +204,10 @@ img {
   word-spacing: 0.5rem;
   letter-spacing: 2px;
   margin: 2.2rem 0;
+  font-family: "Chelsea Market", "cursive";
 }
 
 .hook__header--normal-text {
-  font-size: 1.9rem;
   letter-spacing: 1px;
   word-spacing: 3px;
   text-align: center;
@@ -214,14 +217,14 @@ img {
 
 .hook__header--pitch-text {
   font-size: 1.6rem;
-  width: 45%;
+  width: 65%;
   text-align: center;
-  margin: 0 auto;
   letter-spacing: 1px;
   word-spacing: 3px;
-  margin-right: 21rem;
+  margin-left: 7rem;
 }
 
 .history__section {
   margin: 24px 0;
+  font-size: 1.6rem;
 }
