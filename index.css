@@ -142,6 +142,10 @@ html {
   font-family: "Roboto Mono", monospace;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .orange {
   background-color: #ff764e;
 }
