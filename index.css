@@ -234,12 +234,52 @@ img {
   padding-top: 2rem;
   background-color: #ddb9a3;
   color: white;
+  margin-bottom: 0;
 }
 
 .history__section p {
   margin: 0 auto;
-  margin-bottom: 2rem;
   word-spacing: 7px;
   padding-bottom: 2rem;
   line-height: 2rem;
+}
+
+.suggestions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestions__info-box {
+  width: 33%;
+}
+
+.suggestions__img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.suggestions__img-container img {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  top: -1.2rem;
+}
+
+.suggestions__text {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: -3.6rem;
+}
+
+.suggestions__info-box:last-child {
+  position: relative;
+  top: -2rem;
+}
+
+.suggestions__info-box:last-child .suggestions__text {
+  top: -1rem;
 }
