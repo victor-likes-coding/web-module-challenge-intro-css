@@ -168,13 +168,15 @@ strong {
   margin: 0 6rem;
 }
 
-.nav__links-container--flex {
+.nav__links-container--flex,
+.footer__nav-links-container--flex {
   display: flex;
   padding: 3.4rem 9.7rem;
   justify-content: space-evenly;
 }
 
-.nav__link {
+.nav__link,
+.footer__nav-link {
   font-size: 1.2rem;
   padding: 1rem 2rem;
   width: 125px;
@@ -286,4 +288,27 @@ img {
 
 .suggestions__info-box:last-child .suggestions__text {
   top: -1rem;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer__image--full-wrapper {
+  height: 250px;
+  background: url("assets/footer_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+}
+
+.footer nav {
+  background-color: #f9e7dc;
+}
+
+@media (min-width: 1281px) {
+  .footer__image--full-wrapper {
+    background-position-y: -150px;
+    height: 300px;
+  }
 }
